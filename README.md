@@ -1,2 +1,3 @@
-### Language Definitions
-Extensive trials to adapt some DSLs to functional style
+# Language Definitions
+Extensive trials to adapt string transformation DSL(s) to functional style for program syntheisis.
+

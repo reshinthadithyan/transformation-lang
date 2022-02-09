@@ -2,7 +2,6 @@
 --Idea is to try out some of the type dependants in the lang
 --import Data.List
 
-integerConst = take 100 [1,2..]
 
 functionAdd :: Int -> Int -> Int
 functionAdd x y = x + y
@@ -31,7 +30,15 @@ functionGreaterThanOrEqual x y = x >= y
 functionEquals :: Int -> Int -> Bool
 functionEquals x y = x == y
 
-let StringConst = ["" , " " , "," , "." , "!" , "?" , "(" , ")" , "[" , "]" , "<" , ">", "{" , "}" , "-" , "+" , "_" , "/" , "$" , "#" , ":" , ";" , "@" , "%" , "0"]
+
+--Constant definitions
+
+integerConst :: [Integer]
+integerConst = take 100 [1,2..]
+
+
+stringConst :: [String]
+stringConst =  ["" , " " , "," , "." , "!" , "?" , "(" , ")" , "[" , "]" , "<" , ">", "{" , "}" , "-" , "+" , "_" , "/" , "$" , "#" , ":" , ";" , "@" , "%" , "0"]
 
 main :: IO ()
 main = return ()
